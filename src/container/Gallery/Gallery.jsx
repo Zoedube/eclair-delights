@@ -4,7 +4,7 @@ import { images } from '../../constants';
 import { BsArrowLeftShort, BsArrowRightShort, } from 'react-icons/bs';
 import './Gallery.css';
 
-const galleryImages = [images.gallery01,images.gallery02,images.gallery03,images.gallery04,];
+const galleryImages = [images.smallcake,images.matcha,images.choccup,images.dessert,images.profiteroles];
 
 const Gallery = () => {
   const scrollRef = React.useRef(null);
