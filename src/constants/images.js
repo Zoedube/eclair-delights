@@ -17,6 +17,10 @@ import choccup from '../assets/choccup.png';
 import dessert from '../assets/dessert.png';
 import profiteroles from '../assets/profiteroles.png';
 import smallcake from '../assets/smallcake.png';
+import dessertMennu from '../assets/dessertMennu.png';
+import dessertmenu from '../assets/dessertmenu.png';
+import dessertbackground from '../assets/dessertbackground.png';
+
 
 export default {
   bg,
@@ -38,5 +42,9 @@ export default {
   dessert,
   profiteroles,
   smallcake,
+  dessertMennu,
+  dessertmenu,
+  dessertbackground,
+
 
 };
