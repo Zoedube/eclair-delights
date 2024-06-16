@@ -5,7 +5,6 @@ import logo from '../assets/logo.png';
 import menu from '../assets/menu.png';
 import overlaybg from '../assets/overlaybg.png';
 import spoon from '../assets/spoon.svg';
-import findus from '../assets/findus.png';
 import sign from '../assets/sign.png';
 import header from '../assets/header.png';
 import hero from '../assets/hero.png';
@@ -20,6 +19,7 @@ import smallcake from '../assets/smallcake.png';
 import dessertMennu from '../assets/dessertMennu.png';
 import dessertmenu from '../assets/dessertmenu.png';
 import dessertbackground from '../assets/dessertbackground.png';
+import design from '../assets/design.png';
 
 
 export default {
@@ -29,7 +29,6 @@ export default {
   menu,
   overlaybg,
   spoon,
-  findus,
   sign,
   eclair,
   hero,
@@ -45,6 +44,7 @@ export default {
   dessertMennu,
   dessertmenu,
   dessertbackground,
+  design,
 
 
 };
