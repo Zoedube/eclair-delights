@@ -6,8 +6,8 @@ const vegan = [
     price: 'R220',
   },
   {
-    title: 'Vegan Blueberry Muffin',
-    price: 'R310',
+    title: 'Vegan Chocolate Cake',
+    price: 'R420',
   },
   {
     title: 'Vegan Lemon Tart',
@@ -29,7 +29,7 @@ const traditional = [
     price: 'R133',
   },
   {
-    title: 'Strawberry Cheesecake',
+    title: 'Matcha Cheesecake',
     price: 'R110',
   },
   {
@@ -37,7 +37,7 @@ const traditional = [
     price: 'R100',
   },
   {
-    title: 'Apple Pie',
+    title: 'Eclair Mousse',
     price: 'R75',
   },
   {
