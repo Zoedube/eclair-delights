@@ -4,6 +4,7 @@ import { images } from '../../constants';
 import { BsArrowLeftShort, BsArrowRightShort, } from 'react-icons/bs';
 import './Gallery.css';
 
+// Code the gallery and menu section
 const galleryImages = [images.smallcake,images.matcha,images.choccup,images.dessert,images.profiteroles];
 
 const Gallery = () => {

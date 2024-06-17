@@ -1,3 +1,4 @@
+// Code for the desserts being sold split into vegan and traditional recipes 
 import images from './images';
 
 const vegan = [

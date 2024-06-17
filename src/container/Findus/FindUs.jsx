@@ -2,6 +2,7 @@ import React from 'react';
 import { SubHeading } from '../../components';
 import { images } from '../../constants';
 
+// Code For Find Us Section 
 const FindUs = () => (
   <div className="app__bg__wrapper section__padding" id="contact">
     <div className="app__wrapper_info">

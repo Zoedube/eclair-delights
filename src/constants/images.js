@@ -1,3 +1,5 @@
+// Code for images from assets 
+
 import bg from '../assets/bg.png';
 import eclair from '../assets/eclair.png';
 import spoon from '../assets/spoon.svg';

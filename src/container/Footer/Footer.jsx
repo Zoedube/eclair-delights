@@ -3,6 +3,8 @@ import { FiFacebook, FiTwitter, FiInstagram } from 'react-icons/fi';
 import { images } from '../../constants';
 import './Footer.css';
 
+
+// Code for the footer
 const Footer = () => (
   <div className="app__footer section__padding" id="footer">
     <div className="app__footer-links">

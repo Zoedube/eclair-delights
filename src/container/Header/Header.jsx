@@ -3,6 +3,7 @@ import { images } from '../../constants';
 import './Header.css';
 import { SubHeading } from '../../components';
 
+// Code for the Header section
 const Header = () => (
   <div className="app__header app__wrapper section__padding" id="home">
     <div className="app__wrapper_info">
