@@ -18,7 +18,6 @@ const AboutUs = () => (
             Whether you’re here for your morning coffee or a custom cake, we strive to make every visit memorable. Thank you for choosing Eclair Delights. We can't wait to share our passion for baking with you!
         </p>
 
-        <button type="button" className="custom__button">Know More</button>
 
       </div>
 
@@ -36,7 +35,6 @@ const AboutUs = () => (
             Today, Eclair Delights is a beloved local bakery known for its diverse range of pastries, breads, and desserts. Despite our growth, we remain true to our roots, baking with the same love and care. We look forward to many more years of success with your support.
         </p>
 
-        <button type="button" className="custom__button">Know More</button>
 
       </div>
     </div>

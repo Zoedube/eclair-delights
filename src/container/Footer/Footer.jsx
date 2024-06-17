@@ -1,11 +1,10 @@
 import React from 'react';
 import { FiFacebook, FiTwitter, FiInstagram } from 'react-icons/fi';
 import { images } from '../../constants';
-
 import './Footer.css';
 
 const Footer = () => (
-  <div className="app__footer section__padding" id="contact">
+  <div className="app__footer section__padding" id="footer">
     <div className="app__footer-links">
       <div className="app__footer-links_contact">
         <h1 className="app__footer-headtext">Contact us</h1>
@@ -15,7 +14,7 @@ const Footer = () => (
       </div>
 
       <div className="app__footer-links_logo">
-        <img src={images.eclair} alt="footer_logo" />
+        <img src={images.eclairdelights} alt="footer_logo" />
         <p className="p__opensans">
           At Eclair Delights, we bring you the finest éclairs and pastries crafted with love and passion. Visit us for an unforgettable sweet experience!
         </p>
