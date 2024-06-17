@@ -1,60 +1,49 @@
 import images from './images';
 
-const wines = [
+const vegan = [
   {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
-    tags: 'AU | Bottle',
+    title: 'Vegan Chocolate Eclair',
+    price: 'R220',
   },
   {
-    title: 'Catena Malbee',
-    price: '$59',
-    tags: 'AU | Bottle',
+    title: 'Vegan Blueberry Muffin',
+    price: 'R310',
   },
   {
-    title: 'La Vieillw Rose',
-    price: '$44',
-    tags: 'FR | 750 ml',
+    title: 'Vegan Lemon Tart',
+    price: 'R270',
   },
   {
-    title: 'Rhino Pale Ale',
-    price: '$31',
-    tags: 'CA | 750 ml',
+    title: 'Vegan Banana Bread',
+    price: 'R300',
   },
   {
-    title: 'Irish Guinness',
-    price: '$26',
-    tags: 'IE | 750 ml',
+    title: 'Vegan Chocolate Chip Cookie',
+    price: 'R190',
   },
 ];
 
-const cocktails = [
+const traditional = [
   {
-    title: 'Aperol Sprtiz',
-    price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    title: 'Classic Chocolate Eclair',
+    price: 'R133',
   },
   {
-    title: "Dark 'N' Stormy",
-    price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
+    title: 'Strawberry Cheesecake',
+    price: 'R110',
   },
   {
-    title: 'Daiquiri',
-    price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
+    title: 'Tiramisu',
+    price: 'R100',
   },
   {
-    title: 'Old Fashioned',
-    price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
+    title: 'Apple Pie',
+    price: 'R75',
   },
   {
-    title: 'Negroni',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    title: 'French Macaron',
+    price: 'R150',
   },
 ];
 
-
-export default { wines, cocktails, };
+export default { vegan, traditional, };

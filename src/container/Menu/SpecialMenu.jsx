@@ -11,11 +11,11 @@ const SpecialMenu = () => (
     </div>
 
     <div className="app__specialMenu-menu">
-      <div className="app__specialMenu-menu_wine  flex__center">
+      <div className="app__specialMenu-menu_vegan flex__center">
         <p className="app__specialMenu-menu_heading">Vegan Desserts</p>
         <div className="app__specialMenu_menu_items">
-          {data.wines.map((wine, index) => (
-            <MenuItem key={wine.title + index} title={wine.title} price={wine.price} tags={wine.tags} />
+          {data.vegan.map((vegan, index) => (
+            <MenuItem key={vegan.title + index} title={vegan.title} price={vegan.price} tags={vegan.tags} />
           ))}
         </div>
       </div>
@@ -24,19 +24,17 @@ const SpecialMenu = () => (
         <img src={images.dessertmenu} alt="menu__img" />
       </div>
 
-      <div className="app__specialMenu-menu_cocktails  flex__center">
+      <div className="app__specialMenu-menu_traditional  flex__center">
         <p className="app__specialMenu-menu_heading">Traditional Recipes</p>
         <div className="app__specialMenu_menu_items">
-          {data.cocktails.map((cocktail, index) => (
-            <MenuItem key={cocktail.title + index} title={cocktail.title} price={cocktail.price} tags={cocktail.tags} />
+          {data.traditional.map((traditional, index) => (
+            <MenuItem key={traditional.title + index} title={traditional.title} price={traditional.price} tags={traditional.tags} />
           ))}
         </div>
       </div>
     </div>
 
-    <div style={{ marginTop: 15 }}>
-      <button type="button" className="custom__button">View More</button>
-    </div>
+  
   </div>
 );
 
