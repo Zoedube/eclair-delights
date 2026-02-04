@@ -20,7 +20,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   min-height: 100vh;
 }
 
@@ -39,7 +38,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
   margin-left: 2rem;
 }
 
@@ -50,21 +48,24 @@
 
 .app__wrapper_img img {
   width: 80%;
+  height: auto;
+  max-width: 100%;
 }
 
 .custom__button {
   background-color: var(--color-crimson);
-    color: var(--color-black);
-    font-family: var(--font-base);
-    font-weight: 700;
-    letter-spacing: 0.04em;
-    line-height: 28px;
-    font-size: 16px;
-    padding: 0.5rem 1.5rem;
-    border-radius: 1px;
-    border: none;
-    outline: none;
-    cursor: pointer;
+  color: var(--color-black);
+  font-family: var(--font-base);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 28px;
+  font-size: 16px;
+  padding: 0.5rem 1.5rem;
+  border-radius: 1px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .p__cormorant {
@@ -99,8 +100,10 @@
 
 .spoon__img {
   width: 45px;
+  height: auto;
 }
 
+/* Large Desktop Screens */
 @media screen and (min-width: 2000px) {
   .custom__button,
   .p__cormorant {
@@ -123,6 +126,7 @@
   }
 }
 
+/* Tablet Landscape and Small Desktop */
 @media screen and (max-width: 1150px) {
   .app__wrapper {
     flex-direction: column;
@@ -141,37 +145,142 @@
   }
 }
 
+/* Tablet Portrait */
 @media screen and (max-width: 850px) {
   .section__padding {
     padding: 4rem;
   }
+
+  .headtext__cormorant {
+    font-size: 56px;
+    line-height: 75px;
+  }
 }
 
+/* Mobile Landscape and Small Tablets */
 @media screen and (max-width: 650px) {
   .section__padding {
-    padding: 4rem 2rem;
+    padding: 3rem 2rem;
   }
   
   .p__cormorant {
     font-size: 21px;
+    line-height: 28px;
   }
 
   .p__opensans {
     font-size: 14px;
+    line-height: 24px;
+  }
+
+  .headtext__cormorant {
+    font-size: 48px;
+    line-height: 65px;
+  }
+
+  .custom__button {
+    font-size: 14px;
+    padding: 0.5rem 1.2rem;
+  }
+
+  .spoon__img {
+    width: 35px;
   }
 }
 
+/* Mobile Portrait */
 @media screen and (max-width: 450px) {
+  .section__padding {
+    padding: 2rem 1rem;
+  }
+
   .p__opensans {
     font-size: 12px;
+    line-height: 20px;
   }
 
   .p__cormorant {
     font-size: 19px;
+    line-height: 26px;
   }
 
   .headtext__cormorant {
-    font-size: 45px;
-    line-height: 70px;
+    font-size: 40px;
+    line-height: 55px;
+  }
+
+  .custom__button {
+    font-size: 13px;
+    padding: 0.4rem 1rem;
+  }
+
+  .spoon__img {
+    width: 30px;
+  }
+
+  .app__wrapper_img {
+    margin-left: 0;
+  }
+
+  .app__wrapper_img-reverse {
+    margin-right: 0;
+  }
+}
+
+/* Extra Small Mobile Devices */
+@media screen and (max-width: 375px) {
+  .section__padding {
+    padding: 1.5rem 1rem;
+  }
+
+  .headtext__cormorant {
+    font-size: 36px;
+    line-height: 50px;
+  }
+
+  .p__cormorant {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .p__opensans {
+    font-size: 11px;
+    line-height: 18px;
+  }
+
+  .custom__button {
+    font-size: 12px;
+    padding: 0.4rem 0.8rem;
+  }
+
+  .spoon__img {
+    width: 25px;
+  }
+}
+
+/* Very Small Devices (iPhone SE, etc.) */
+@media screen and (max-width: 320px) {
+  .section__padding {
+    padding: 1rem 0.75rem;
+  }
+
+  .headtext__cormorant {
+    font-size: 32px;
+    line-height: 45px;
+  }
+
+  .p__cormorant {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .p__opensans {
+    font-size: 10px;
+    line-height: 16px;
+  }
+
+  .custom__button {
+    font-size: 11px;
+    padding: 0.35rem 0.7rem;
   }
 }
