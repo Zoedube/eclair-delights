@@ -48,8 +48,6 @@
 
 .app__wrapper_img img {
   width: 80%;
-  height: auto;
-  max-width: 100%;
 }
 
 .custom__button {
@@ -99,7 +97,6 @@
 
 .spoon__img {
   width: 45px;
-  height: auto;
 }
 
 @media screen and (min-width: 2000px) {
@@ -146,40 +143,19 @@
   .section__padding {
     padding: 4rem;
   }
-
-  .headtext__cormorant {
-    font-size: 56px;
-    line-height: 75px;
-  }
 }
 
 @media screen and (max-width: 650px) {
   .section__padding {
-    padding: 3rem 2rem;
+    padding: 4rem 2rem;
   }
   
   .p__cormorant {
     font-size: 21px;
-    line-height: 28px;
   }
 
   .p__opensans {
     font-size: 14px;
-    line-height: 24px;
-  }
-
-  .headtext__cormorant {
-    font-size: 48px;
-    line-height: 65px;
-  }
-
-  .custom__button {
-    font-size: 14px;
-    padding: 0.5rem 1.2rem;
-  }
-
-  .spoon__img {
-    width: 35px;
   }
 }
 
@@ -190,26 +166,15 @@
 
   .p__opensans {
     font-size: 12px;
-    line-height: 20px;
   }
 
   .p__cormorant {
     font-size: 19px;
-    line-height: 26px;
   }
 
   .headtext__cormorant {
-    font-size: 40px;
-    line-height: 55px;
-  }
-
-  .custom__button {
-    font-size: 13px;
-    padding: 0.4rem 1rem;
-  }
-
-  .spoon__img {
-    width: 30px;
+    font-size: 45px;
+    line-height: 70px;
   }
 
   .app__wrapper_img {
@@ -227,52 +192,14 @@
   }
 
   .headtext__cormorant {
-    font-size: 36px;
-    line-height: 50px;
-  }
-
-  .p__cormorant {
-    font-size: 18px;
-    line-height: 24px;
-  }
-
-  .p__opensans {
-    font-size: 11px;
-    line-height: 18px;
-  }
-
-  .custom__button {
-    font-size: 12px;
-    padding: 0.4rem 0.8rem;
-  }
-
-  .spoon__img {
-    width: 25px;
+    font-size: 38px;
+    line-height: 60px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .section__padding {
-    padding: 1rem 0.75rem;
-  }
-
   .headtext__cormorant {
     font-size: 32px;
-    line-height: 45px;
-  }
-
-  .p__cormorant {
-    font-size: 16px;
-    line-height: 22px;
-  }
-
-  .p__opensans {
-    font-size: 10px;
-    line-height: 16px;
-  }
-
-  .custom__button {
-    font-size: 11px;
-    padding: 0.35rem 0.7rem;
+    line-height: 50px;
   }
 }
