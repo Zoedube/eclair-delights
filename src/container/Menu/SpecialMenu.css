@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   background: black;
+  padding: 4rem 2rem;
 }
 
 .app__specialMenu-title {
@@ -44,7 +45,6 @@
   width: 100%;
   max-width: 410px;
   height: auto;
-  margin: 0 2rem;
 }
 
 .app__specialMenu-menu_items {
@@ -55,6 +55,10 @@
 }
 
 @media screen and (max-width: 1150px) {
+  .app__specialMenu {
+    padding: 3rem 1.5rem;
+  }
+  
   .app__specialMenu-menu {
     flex-direction: column;
     align-items: center;
@@ -63,12 +67,17 @@
   
   .app__specialMenu-menu_img img {
     margin: 2rem 0;
+    max-width: 350px;
   }
 }
 
 @media screen and (max-width: 650px) {
+  .app__specialMenu {
+    padding: 2rem 1rem;
+  }
+  
   .app__specialMenu-menu_img img {
-    width: 90%;
+    width: 100%;
     max-width: 100%;
     margin: 1rem 0;
   }
@@ -80,12 +89,23 @@
 }
 
 @media screen and (max-width: 450px) {
+  .app__specialMenu {
+    padding: 2rem 0.75rem;
+  }
+  
   .app__specialMenu-menu_heading {
     font-size: 28px;
     line-height: 40px;
   }
+}
+
+@media screen and (max-width: 375px) {
+  .app__specialMenu {
+    padding: 1.5rem 0.5rem;
+  }
   
-  .app__specialMenu-menu_img img {
-    width: 100%;
+  .app__specialMenu-menu_heading {
+    font-size: 24px;
+    line-height: 36px;
   }
 }
