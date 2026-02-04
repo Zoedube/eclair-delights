@@ -32,3 +32,26 @@
   justify-content: flex-end;
   align-items: flex-end;
 }
+
+/* Responsive */
+@media screen and (max-width: 650px) {
+  .app__menuitem-dash {
+    width: 50px;
+    margin: 0 0.5rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .app__menuitem-head {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .app__menuitem-dash {
+    display: none;
+  }
+  
+  .app__menuitem-price {
+    margin-top: 0.5rem;
+  }
+}
